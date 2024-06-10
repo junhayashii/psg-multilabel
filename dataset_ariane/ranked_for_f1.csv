@@ -1,0 +1,17 @@
+model,./data/ariane.arff,./data/ariane.arff_std,best_./data/ariane.arff,best_awards,rank_./data/ariane.arff,rank_average
+label_space_partition_classifier,0.102,0.099,1,1,1.0,1.0
+majority_voting_classifier,0.0887,0.0837,0,0,2.0,2.0
+label_powerset,0.08,0.098,0,0,3.0,3.0
+mlaram,0.0693,0.0594,0,0,4.0,4.0
+baseline_binary_relevance_model,0.06,0.0917,0,0,5.0,5.0
+baseline_stacked_generalization,0.06,0.0917,0,0,5.0,5.0
+baseline_dependant_binary_relevance,0.06,0.0917,0,0,5.0,5.0
+baseline_classifier_chain,0.06,0.0917,0,0,5.0,5.0
+stacking_with_f_tests,0.06,0.0917,0,0,5.0,5.0
+classifier_chain_with_lop,0.06,0.0917,0,0,5.0,5.0
+partial_classifier_chain_with_lop,0.06,0.0917,0,0,5.0,5.0
+classifier_chain_with_genetic_algorithm,0.06,0.0917,0,0,5.0,5.0
+binary_relevance,0.06,0.0917,0,0,5.0,5.0
+classifier_chain,0.06,0.0917,0,0,5.0,5.0
+rakeld,0.0527,0.0659,0,0,15.0,15.0
+classifier_chain_with_f_test_ordering,,,0,0,,

@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "arange",
+        "classif",
+        "fillna",
+        "hstack",
+        "iloc",
+        "levelname",
+        "ndarray",
+        "preds",
+        "pygad",
+        "skmultilearn",
+        "todense"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+}

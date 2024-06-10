@@ -1,0 +1,54 @@
+
+\begin{table}[htbp]
+	\centering
+	\caption{Resultados obtidos para perda de \textit{{Hamming}} (1)}
+		\begin{tabular}
+        { p{0.88in} p{0.88in} p{0.88in} p{0.88in} p{0.88in} p{0.88in} }
+        
+        \hline
+Modelo & \textit{emotions} & \textit{scene} & \textit{yeast} & \textit{birds} & \textit{tmc2007\_500} \\ 
+\hline \\
+
+BR & 0,2136 \newline ($\sigma$ 0,0194) & 0,125 \newline ($\sigma$ 0,0437) & \textbf{0,2058} \newline ($\sigma$ 0,0089) & \textbf{0,0459} \newline ($\sigma$ 0,0070) & 0,0648 \newline ($\sigma$ 0,0085) \\ \\
+CC & \textbf{0,2116} \newline ($\sigma$ 0,0120) & 0,1359 \newline ($\sigma$ 0,0509) & 0,2159 \newline ($\sigma$ 0,0081) & 0,0528 \newline ($\sigma$ 0,0079) & 0,0656 \newline ($\sigma$ 0,0085) \\ \\
+ML & 0,2413 \newline ($\sigma$ 0,0206) & \textbf{0,1218} \newline ($\sigma$ 0,0406) & 0,2267 \newline ($\sigma$ 0,0130) & 0,1317 \newline ($\sigma$ 0,0186) & \textbf{0,0491} \newline ($\sigma$ 0,0194) \\ \\
+LP & 0,2215 \newline ($\sigma$ 0,0187) & 0,1334 \newline ($\sigma$ 0,0513) & 0,2214 \newline ($\sigma$ 0,0068) & 0,056 \newline ($\sigma$ 0,0068) & 0,0767 \newline ($\sigma$ 0,0061) \\ \\
+MVC & 0,2715 \newline ($\sigma$ 0,0362) & 0,2126 \newline ($\sigma$ 0,1011) & 0,284 \newline ($\sigma$ 0,0102) & 0,1178 \newline ($\sigma$ 0,0106) & 0,1844 \newline ($\sigma$ 0,0070) \\ \\
+LSPC & 0,2802 \newline ($\sigma$ 0,0318) & 0,2334 \newline ($\sigma$ 0,1020) & 0,2858 \newline ($\sigma$ 0,0100) & 0,1425 \newline ($\sigma$ 0,0117) & 0,1863 \newline ($\sigma$ 0,0072) \\ \\
+RAK & 0,2558 \newline ($\sigma$ 0,0253) & 0,2518 \newline ($\sigma$ 0,0654) & 0,3017 \newline ($\sigma$ 0,0090) & 0,4441 \newline ($\sigma$ 0,0300) & 0,5892 \newline ($\sigma$ 0,0214) \\ \\
+
+\hline \ 
+ Diferença & 0,0686 & 0,1300 & 0,0959 & 0,3982 & 0,5401 \\ 
+\hline \\
+
+        \end{tabular}
+	\label{tab:metricsForHammingLoss_1}
+  \source{Edgard Taver, 2023}
+\end{table}
+
+\begin{table}[htbp]
+	\centering
+	\caption{Resultados obtidos para perda de \textit{{Hamming}} (2)}
+		\begin{tabular}
+        { p{0.88in} p{0.88in} p{0.88in} p{0.88in} p{0.88in} p{0.88in} }
+        
+        \hline
+Modelo & \textit{genbase} & \textit{medical} & \textit{enron} & \textbf{Vitórias} & \textbf{Rank} \\ 
+\hline \\
+
+BR & 0,0027 \newline ($\sigma$ 0,0018) & 0,0162 \newline ($\sigma$ 0,0029) & 0,0641 \newline ($\sigma$ 0,0095) & 2 & 1,8750 \\ \\
+CC & 0,0029 \newline ($\sigma$ 0,0018) & \textbf{0,0161} \newline ($\sigma$ 0,0027) & 0,0644 \newline ($\sigma$ 0,0110) & 2 & 2,5000 \\ \\
+ML & \textbf{0,0017} \newline ($\sigma$ 0,0014) & 0,0255 \newline ($\sigma$ 0,0031) & \textbf{0,0633} \newline ($\sigma$ 0,0072) & 4 & 2,6250 \\ \\
+LP & 0,0031 \newline ($\sigma$ 0,0022) & 0,0188 \newline ($\sigma$ 0,0028) & 0,0706 \newline ($\sigma$ 0,0121) & 0 & 3,5000 \\ \\
+MVC & 0,022 \newline ($\sigma$ 0,0084) & 0,0274 \newline ($\sigma$ 0,0020) & 0,0798 \newline ($\sigma$ 0,0090) & 0 & 5,1250 \\ \\
+LSPC & 0,0221 \newline ($\sigma$ 0,0083) & 0,0274 \newline ($\sigma$ 0,0020) & 0,0842 \newline ($\sigma$ 0,0061) & 0 & 6,1250 \\ \\
+RAK & 0,0025 \newline ($\sigma$ 0,0019) & 0,0366 \newline ($\sigma$ 0,0029) & 0,2102 \newline ($\sigma$ 0,0489) & 0 & 6,1250 \\ \\
+
+\hline \ 
+ Diferença & 0,0204 & 0,0205 & 0,1469 &  &  \\ 
+\hline \\
+
+        \end{tabular}
+	\label{tab:metricsForHammingLoss_2}
+  \source{Edgard Taver, 2023}
+\end{table}
